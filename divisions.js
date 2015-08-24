@@ -12,12 +12,13 @@ function shuffle(array) {
     West: [],
     East: []
   };
-  for (var k = 0; k < array.length; k++) {
-    if (k % 2 === 0) {
-      divisions.West.push(array[k]);
+  for (var k = 0; k < newArray.length; k++) {
+    if(k % 2 === 0) {
+      divisions.West.push(newArray[k]);
     } else {
-      divisions.East.push(array[k]);
+      divisions.East.push(newArray[k]);
     };
   };
+  return divisions;
 };
 shuffle(leagueArray);
