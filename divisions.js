@@ -8,6 +8,16 @@ function shuffle(array) {
     newArray[i] = newArray[j];
     newArray[j] = temp
   };
-  return array;
+  var divisions = {
+    West: [],
+    East: []
+  };
+  for (var k = 0; k < array.length; k++) {
+    if (k % 2 === 0) {
+      divisions.West.push(array[k]);
+    } else {
+      divisions.East.push(array[k]);
+    };
+  };
 };
 shuffle(leagueArray);
