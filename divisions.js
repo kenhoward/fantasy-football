@@ -1,4 +1,4 @@
-var leagueArray = ["Evan", "Kyle", "Kenny", "Simon", "Sean", "Austin", "Micah", "Mat", "Calie", "Andrew"];
+var leagueArray = ["Evan", "Kyle", "Kenny", "Simon", "Sean", "Austin", "Micah", "Mat", "Andrew", "Heath"];
 
 function shuffle(array) {
   var newArray = array;
